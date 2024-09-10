@@ -14,7 +14,6 @@ function my_func($file,$size,$exts,$path,$lang){
                 $message["en"]= "File Uploaded Successfully";
                 $message["ar"]= "تم رفع الملف بنجاح";
                 $message['file']= $name;
-                $_SESSION['name']=$path.$name;
             }else{
                 $message["en"]="Upload folder not found";
                 $message["ar"]="المجلد غير موجود";
